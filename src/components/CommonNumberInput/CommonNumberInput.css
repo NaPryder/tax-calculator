@@ -1,0 +1,14 @@
+label.income-input-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+/* label.income-input-container > input {
+  border-radius: 5px;
+  border: 1px solid rgb(158, 158, 158);
+  outline: none;
+  padding: 5px;
+} */

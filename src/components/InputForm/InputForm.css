@@ -1,0 +1,28 @@
+.income-type-form {
+  display: flex;
+  flex-direction: column;
+  /* gap: 5px; */
+  padding: 10px;
+}
+
+.income-type-form > .label {
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: var(--primary);
+}
+
+.income-type-form > .label:hover {
+  background-color: var(--primary-hover);
+  transition: 0.2s all ease-in;
+}
+
+/* FORM */
+.income-type-form > div.form-container {
+  background-color: var(--base);
+  border-radius: 5px;
+  padding: 0 15px;
+}
